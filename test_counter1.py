@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch
 from io import StringIO
-from counter1 import counter
+from counter.counter1 import counter
 
 class TestCounter1(unittest.TestCase):
 

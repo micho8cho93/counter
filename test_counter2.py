@@ -2,7 +2,7 @@ import unittest
 from unittest.mock import patch
 from io import StringIO
 
-from counter2 import counter  # Replace 'your_script' with the actual filename
+from counter.counter2 import counter  # Replace 'your_script' with the actual filename
 
 class TestCounter(unittest.TestCase):
     @patch('builtins.input', side_effect=['3', 'Alice', 'Bob', 'Charlie', 'y', 'y', 'n', 'y'])
