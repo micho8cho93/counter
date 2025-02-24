@@ -1,4 +1,10 @@
-#create class attendance counter
+"""create functions for counting class attendance based on user input.
+example interaction:
+    - User inputs: 3
+    - User enters: 'y', 'n', 'y'
+    - Output: 
+      Students present: 2
+      Students absent: 1 """
 
 #create your main function called counter
 
@@ -6,12 +12,15 @@
 # How can we convert the input to an integer? 
 
 
-#initialize two variables. 1) to keep count of students present and 2) to keep count of students absent
+#initialize two variables. 
+#1) to keep count of students present 
+#2) to keep count of students absent
 
 
 
 #iterate through number of students and have user input if student is present or absent
-#remember that for loops do not naturally work with integers, how can you iterate through a RANGE of numbers?
+#the user inputs 'y' for present and 'n' for absent.
+#remember that for loops do not naturally work with integers, how can you iterate through a *range* of numbers?
 
 
 
@@ -21,3 +30,4 @@
 
 #run your program
 if __name__ == "__main__":
+
