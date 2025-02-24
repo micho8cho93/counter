@@ -1,4 +1,24 @@
-#create class attendance counter
+"""create a class attendance counter that asks for the names of the students
+and records their names show if they are present or absent.
+ This function:
+    - Asks the user for the number of students in the class.
+    - Collects student names and stores them in a list.
+    - Asks the user to confirm the class list before proceeding.
+    - Iterates through the confirmed student list to record attendance.
+    - Counts and displays the number of present and absent students along with their names.
+
+    Example interaction:
+    - User inputs: 3
+    - User enters student names: 'Alice', 'Bob', 'Charlie'
+    - User confirms list: 'y'
+    - User enters attendance: 'y', 'n', 'y'
+    - Output:
+      Students present: 2
+      Student names: ['Alice', 'Charlie']
+      Students absent: 1
+      Student names: ['Bob']
+    """
+
 
 #create main function called counter
 
@@ -14,7 +34,8 @@
 
 
 
-#initalize 4 variables. 2 variables are needed to keep count of the number of students present and absent.
+#initalize 4 variables. 
+#2 variables are needed to keep count of the number of students present and absent.
 #2 more variables are needed to create a list of student names that are present and absent
 
 
@@ -32,4 +53,6 @@
 
 #run your program
 if __name__ == "__main__":
+
+
 
